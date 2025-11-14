@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welding Safety: Best Practices</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+<!-- Header Section -->
+    <header class="bg-gray-800 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6 flex flex-col md:flex-row justify-between items-center">
+          
+            <a href="C:\Users\caoma\OneDrive\Desktop\ACMETEX website\acmewebsite.html" class="text-3xl font-bold tracking-tight">Acmetex Inc.</a>
+            
+            <nav class="mt-4 md:mt-0 space-x-6">
+                <a href="C:\Users\caoma\OneDrive\Desktop\ACMETEX website\acmewebsite.html" class="hover:text-red-400 transition-colors">Home</a>
+
+      <!-- Products dropdown: the `group` wraps both trigger and menu -->
+        <div class="relative inline-block group">
+          <a href="#" class="inline-flex items-center hover:text-red-400 transition-colors">
+            Products
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none"
+               viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M19 9l-7 7-7-7" />
+            </svg>
+          </a>
+
+        <!-- Menu stays in the flow: use invisible/opacity + pointer-events trick -->
+        <div class="absolute left-0 top-full mt-0 min-w-[12rem] rounded-lg shadow-lg bg-white text-gray-800
+                 invisible opacity-0 pointer-events-none
+                 group-hover:visible group-hover:opacity-100 group-hover:pointer-events-auto
+                 transition-all duration-150 z-20">
+          <a href="C:\Users\caoma\OneDrive\Desktop\ACMETEX website\Welding\FGCloth.html" class="block px-4 py-2 hover:bg-gray-100">Removable Jacketing/Covers</a>
+          <a href="C:\Users\caoma\OneDrive\Desktop\ACMETEX website\Welding\FGWelding.html" class="block px-4 py-2 hover:bg-gray-100">Fire/Welding Blankets</a>
+          <a href="C:\Users\caoma\OneDrive\Desktop\ACMETEX website\Welding\FGExpansion.html" class="block px-4 py-2 hover:bg-gray-100">Expansion Joints</a>
+        </div>
+      </div>
+      
+                <!-- About Us dropdown: the `group` wraps both trigger and menu -->
+      <div class="relative inline-block group">
+        <a href="#"
+           class="inline-flex items-center hover:text-red-400 transition-colors">
+          About Us
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none"
+               viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M19 9l-7 7-7-7" />
+          </svg>
+        </a>
+
+        <!-- Menu stays in the flow: use invisible/opacity + pointer-events trick -->
+        <div
+          class="absolute left-0 top-full mt-0 min-w-[12rem] rounded-lg shadow-lg bg-white text-gray-800
+                 invisible opacity-0 pointer-events-none
+                 group-hover:visible group-hover:opacity-100 group-hover:pointer-events-auto
+                 transition-all duration-150 z-20">
+          <a href="C:\Users\caoma\OneDrive\Desktop\ACMETEX website\Header\AboutUs.html" class="block px-4 py-2 hover:bg-gray-100">Company Overview</a>
+          <a href="C:\Users\caoma\OneDrive\Desktop\ACMETEX website\acmewebsite.html #resources" class="block px-4 py-2 hover:bg-gray-100">Blog</a>
+          <a href="C:\Users\caoma\OneDrive\Desktop\ACMETEX website\blog\bestpractice.html" class="block px-4 py-2 hover:bg-gray-100">Mission & Values</a>
+        </div>
+      </div>
+
+       <!-- Contact Us -->
+      <a href="C:\Users\caoma\OneDrive\Desktop\ACMETEX website\Header\Contact.html" class="hover:text-red-400 transition-colors">Contact</a>
+
+
+        </div>
+    </header>
+
+<!-- Hero -->
+<header class="bg-gray-800 text-white py-20 px-8 text-center">
+  <div class="max-w-3xl mx-auto">
+    <h1 class="text-4xl md:text-6xl font-bold mb-4">Welding Safety: Best Practices</h1>
+    <p class="text-lg md:text-2xl mb-6">
+      Protect workers with fire blankets, protective gear, and solid safety habits.
+    </p>
+    <a href="#measures" class="bg-white text-red-700 font-semibold px-6 py-3 rounded-2xl shadow-lg hover:bg-gray-100">
+      Learn More
+    </a>
+  </div>
+</header>
+
+<!-- Why It Matters -->
+<section class="py-16 px-8 max-w-6xl mx-auto">
+  <h2 class="text-3xl font-bold text-center mb-8 text-red-800">Why Welding Safety Matters</h2>
+  <p class="text-center max-w-3xl mx-auto mb-8">
+    Welding exposes workers to intense heat, UV radiation, and flammable materials.
+    Following strict safety procedures helps prevent serious injuries and costly accidents.
+  </p>
+  <div class="grid md:grid-cols-2 gap-6">
+    <img src="C:\Users\caoma\OneDrive\Desktop\ACMETEX website\images\others\sparks.webp" 
+         alt="Welder working with sparks flying" class="rounded-xl shadow w-full h-80 object-cover">
+    <img src="C:\Users\caoma\OneDrive\Desktop\ACMETEX website\images\others\Protection.avif" 
+         alt="Protective gear used in welding" class="rounded-xl shadow w-full h-80 object-cover">
+  </div>
+</section>
+
+<!-- Key Safety Measures -->
+<section id="measures" class="py-16 px-8 bg-gray-100">
+  <h2 class="text-3xl font-bold text-center mb-12 text-red-800">Key Safety Measures</h2>
+  <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+    <div class="bg-white p-6 rounded-2xl shadow flex items-start space-x-4">
+      <i class="fas fa-fire-extinguisher text-red-700 text-2xl"></i>
+      <p><strong>Use Fire Blankets:</strong> Protect the work area by placing fire-resistant blankets to contain sparks and molten metal.</p>
+    </div>
+    <div class="bg-white p-6 rounded-2xl shadow flex items-start space-x-4">
+      <i class="fas fa-hard-hat text-red-700 text-2xl"></i>
+      <p><strong>Wear Protective Gear:</strong> Always wear welding helmets, flame-resistant gloves, jackets, and goggles to prevent burns and eye damage.</p>
+    </div>
+    <div class="bg-white p-6 rounded-2xl shadow flex items-start space-x-4">
+      <i class="fas fa-wind text-red-700 text-2xl"></i>
+      <p><strong>Ensure Ventilation:</strong> Use exhaust fans or fume extractors to minimize toxic gas exposure.</p>
+    </div>
+    <div class="bg-white p-6 rounded-2xl shadow flex items-start space-x-4">
+      <i class="fas fa-broom text-red-700 text-2xl"></i>
+      <p><strong>Clear the Area:</strong> Remove flammable materials and ensure the workspace is tidy and hazard-free.</p>
+    </div>
+    <div class="bg-white p-6 rounded-2xl shadow flex items-start space-x-4">
+      <i class="fas fa-chalkboard-teacher text-red-700 text-2xl"></i>
+      <p><strong>Training & Supervision:</strong> All welders must receive proper training, with supervisors enforcing safety protocols.</p>
+    </div>
+    <div class="bg-white p-6 rounded-2xl shadow flex items-start space-x-4">
+      <i class="fas fa-tools text-red-700 text-2xl"></i>
+      <p><strong>Inspect Equipment:</strong> Check welding machines and cables regularly to prevent electrical hazards and leaks.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Contact CTA -->
+<section id="contact" class="py-16 px-8 bg-gray-700 text-white text-center">
+  <h2 class="text-3xl font-bold mb-4">Stay Safe, Stay Prepared</h2>
+  <p class="mb-6">Have questions about welding safety materials or training? Get in touch with our team today.</p>
+  <form action="https://formsubmit.co/your@email.com" method="POST"
+        class="max-w-3xl mx-auto grid md:grid-cols-2 gap-6 text-left">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="text" name="fullName" placeholder="Full Name" class="p-3 rounded-lg text-gray-800" required>
+    <input type="email" name="email" placeholder="Email Address" class="p-3 rounded-lg text-gray-800" required>
+    <textarea name="message" placeholder="Your Message" class="p-3 rounded-lg text-gray-800 md:col-span-2" rows="4"></textarea>
+    <button type="submit" class="bg-white text-red-700 font-bold py-3 px-6 rounded-2xl shadow-lg hover:bg-gray-100 md:col-span-2">Submit</button>
+  </form>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-gray-300 py-6 text-center">
+  <p>&copy; 2025 Welding Safety Initiative. All rights reserved.</p>
+</footer>
+
+<!-- Font Awesome -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js"></script>
+</body>
+</html>
