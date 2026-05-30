@@ -1,0 +1,46 @@
+
+.hero-background {
+    background-image: url('images/Banner3.jpg'); /* Replace with the actual URL of your image */
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    position: relative;
+  }
+
+  .hero-background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Dark overlay for better text readability */
+    z-index: 1;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+
+  }
+
+  /*
+html, body {
+  overflow-x: auto;   
+  overflow-y: auto;
+}
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  white-space: nowrap;
+}
+
+/
+
+
+
+
+

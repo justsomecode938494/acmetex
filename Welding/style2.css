@@ -1,0 +1,147 @@
+.hero-background2 {
+    background-image: url('../images/jacket.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+    /* Ensures text stays centered and hero has full height */
+    min-height: 40vh; /* Adjust if you want bigger section */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 4rem 1rem; /* Works with Tailwind padding from HTML */
+    overflow: hidden; /* Ensures overlay doesn't push content */
+}
+
+.hero-background2::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.1) 0%,
+        rgba(0, 0, 0, 0.45) 100%
+    );
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.45); /* Better contrast */
+    z-index: 1;
+}
+
+.hero-content2 {
+    position: relative;
+    z-index: 2;
+    max-width: 800px; /* Keep text nicely centered */
+    text-align: center;
+}
+
+.hero-background3 {
+    background-image: url('../images/fiberglass.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+    /* Ensures text stays centered and hero has full height */
+    min-height: 40vh; /* Adjust if you want bigger section */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 4rem 1rem; /* Works with Tailwind padding from HTML */
+    overflow: hidden; /* Ensures overlay doesn't push content */
+}
+
+.hero-background3::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.1) 0%,
+        rgba(0, 0, 0, 0.45) 100%
+    );
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.45); /* Better contrast */
+    z-index: 1;
+}
+
+.hero-content3 {
+    position: relative;
+    z-index: 2;
+    max-width: 800px; /* Keep text nicely centered */
+    text-align: center;
+}
+
+.hero-background4 {
+    background-image: url('../images/joints.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+    /* Ensures text stays centered and hero has full height */
+    min-height: 40vh; /* Adjust if you want bigger section */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 4rem 1rem; /* Works with Tailwind padding from HTML */
+    overflow: hidden; /* Ensures overlay doesn't push content */
+}
+
+.hero-background4::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.1) 0%,
+        rgba(0, 0, 0, 0.45) 100%
+    );
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.45); /* Better contrast */
+    z-index: 1;
+}
+
+.hero-content4 {
+    position: relative;
+    z-index: 2;
+    max-width: 800px; /* Keep text nicely centered */
+    text-align: center;
+}
+
+.hero-background5 {
+    background-image: url('../images/threads1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+    /* Ensures text stays centered and hero has full height */
+    min-height: 40vh; /* Adjust if you want bigger section */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 4rem 1rem; /* Works with Tailwind padding from HTML */
+    overflow: hidden; /* Ensures overlay doesn't push content */
+}
+
+.hero-background5::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.1) 0%,
+        rgba(0, 0, 0, 0.45) 100%
+    );
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.45); /* Better contrast */
+    z-index: 1;
+}
+
+.hero-content5 {
+    position: relative;
+    z-index: 2;
+    max-width: 800px; /* Keep text nicely centered */
+    text-align: center;
+}

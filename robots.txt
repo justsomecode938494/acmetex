@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /data sheet/
+Disallow: /thank-you.html
+
+Sitemap: https://www.foretexinc.ca/sitemap.xml
