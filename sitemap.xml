@@ -3,227 +3,227 @@
 
   <!-- Core Pages -->
   <url>
-    <loc>https://www.foretexinc.ca/acmewebsite.html</loc>
+    <loc>https://www.foretexinc.ca/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.foretexinc.ca/Header/AboutUs.html</loc>
+    <loc>https://www.foretexinc.ca/About</loc>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.foretexinc.ca/Header/Contact.html</loc>
+    <loc>https://www.foretexinc.ca/Contact</loc>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.foretexinc.ca/Removable-Cover-Insulation.html</loc>
+    <loc>https://www.foretexinc.ca/Removable-Cover-Insulation</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Blog -->
   <url>
-    <loc>https://www.foretexinc.ca/blog/bestpractice.html</loc>
+    <loc>https://www.foretexinc.ca/blog/best-practices</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.foretexinc.ca/blog/desc.html</loc>
+    <loc>https://www.foretexinc.ca/blog/heat-resistant-materials</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.foretexinc.ca/blog/sus.html</loc>
+    <loc>https://www.foretexinc.ca/blog/sustainability</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <!-- Threads -->
   <url>
-    <loc>https://www.foretexinc.ca/Threads/E18.html</loc>
+    <loc>https://www.foretexinc.ca/Threads/E18</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.foretexinc.ca/Threads/E20.html</loc>
+    <loc>https://www.foretexinc.ca/Threads/E20</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.foretexinc.ca/Threads/E24.html</loc>
+    <loc>https://www.foretexinc.ca/Threads/E24</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.foretexinc.ca/Threads/KSS3.html</loc>
+    <loc>https://www.foretexinc.ca/Threads/KSS3</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.foretexinc.ca/Threads/KSS4-8.html</loc>
+    <loc>https://www.foretexinc.ca/Threads/KSS4-8</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.foretexinc.ca/Threads/PTFEThread.html</loc>
+    <loc>https://www.foretexinc.ca/Threads/PTFE-Thread</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.foretexinc.ca/Threads/SilicaThread.html</loc>
+    <loc>https://www.foretexinc.ca/Threads/Silica-Thread</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Welding - AFG -->
   <url>
-    <loc>https://www.foretexinc.ca/Welding/AFG/AFG1860.html</loc>
+    <loc>https://www.foretexinc.ca/Welding/AFG1860</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.foretexinc.ca/Welding/AFG/AFG2160.html</loc>
+    <loc>https://www.foretexinc.ca/Welding/AFG2160</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Welding - FG -->
   <url>
-    <loc>https://www.foretexinc.ca/Welding/FG/FG1860.html</loc>
+    <loc>https://www.foretexinc.ca/Welding/FG1860</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.foretexinc.ca/Welding/FG/FG2460.html</loc>
+    <loc>https://www.foretexinc.ca/Welding/FG2460</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.foretexinc.ca/Welding/FG/FG3500.html</loc>
+    <loc>https://www.foretexinc.ca/Welding/FG3500</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.foretexinc.ca/Welding/FG/FG6400.html</loc>
+    <loc>https://www.foretexinc.ca/Welding/FG6400</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Welding - SFG -->
   <url>
-    <loc>https://www.foretexinc.ca/Welding/SFG/SFG1760G.html</loc>
+    <loc>https://www.foretexinc.ca/Welding/SFG1760G</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.foretexinc.ca/Welding/SFG/SFG1760R.html</loc>
+    <loc>https://www.foretexinc.ca/Welding/SFG1760R</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.foretexinc.ca/Welding/SFG/SFG3260G.html</loc>
+    <loc>https://www.foretexinc.ca/Welding/SFG3260G</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.foretexinc.ca/Welding/SFG/SFG3260R.html</loc>
+    <loc>https://www.foretexinc.ca/Welding/SFG3260R</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Welding - SIL -->
   <url>
-    <loc>https://www.foretexinc.ca/Welding/SIL/SIL1800.html</loc>
+    <loc>https://www.foretexinc.ca/Welding/SIL1800</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.foretexinc.ca/Welding/SIL/SIL3600.html</loc>
+    <loc>https://www.foretexinc.ca/Welding/SIL3600</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Welding - VFG -->
   <url>
-    <loc>https://www.foretexinc.ca/Welding/VFG/VFG1860G.html</loc>
+    <loc>https://www.foretexinc.ca/Welding/VFG1860G</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.foretexinc.ca/Welding/VFG/VFG2460G.html</loc>
+    <loc>https://www.foretexinc.ca/Welding/VFG2460G</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.foretexinc.ca/Welding/VFG/VFG3560G.html</loc>
+    <loc>https://www.foretexinc.ca/Welding/VFG3560G</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.foretexinc.ca/Welding/VFG/VFG3560SS.html</loc>
+    <loc>https://www.foretexinc.ca/Welding/VFG3560SS</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Welding - NFG -->
   <url>
-    <loc>https://www.foretexinc.ca/Welding/NFG/NFG1660.html</loc>
+    <loc>https://www.foretexinc.ca/Welding/NFG1660</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.foretexinc.ca/Welding/NFG/NFG2460B.html</loc>
+    <loc>https://www.foretexinc.ca/Welding/NFG2460B</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.foretexinc.ca/Welding/NFG/NFG2460Y.html</loc>
+    <loc>https://www.foretexinc.ca/Welding/NFG2460Y</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Welding - Mat -->
   <url>
-    <loc>https://www.foretexinc.ca/Welding/Mat/FGMAT160.html</loc>
+    <loc>https://www.foretexinc.ca/Welding/FGMAT160</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.foretexinc.ca/Welding/Mat/SilicaMAT.html</loc>
+    <loc>https://www.foretexinc.ca/Welding/SilicaMAT</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Welding - Other -->
   <url>
-    <loc>https://www.foretexinc.ca/Welding/FGCloth.html</loc>
+    <loc>https://www.foretexinc.ca/Welding/FGCloth</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.foretexinc.ca/Welding/FGExpansion.html</loc>
+    <loc>https://www.foretexinc.ca/Welding/FGExpansion</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.foretexinc.ca/Welding/FGWelding.html</loc>
+    <loc>https://www.foretexinc.ca/Welding/FGWelding</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.foretexinc.ca/Welding/FGThreads.html</loc>
+    <loc>https://www.foretexinc.ca/Welding/FGThreads</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.foretexinc.ca/Welding/MeshCloth.html</loc>
+    <loc>https://www.foretexinc.ca/Welding/MeshCloth</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.foretexinc.ca/Welding/PTFE.html</loc>
+    <loc>https://www.foretexinc.ca/Welding/PTFE</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

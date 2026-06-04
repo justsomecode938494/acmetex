@@ -1,0 +1,135 @@
+RewriteEngine On
+
+# Serve acmewebsite.html as the homepage
+DirectoryIndex acmewebsite.html
+
+# ── Redirect old .html URLs to clean aliases (301) ─────────────────────────
+RewriteCond %{THE_REQUEST} \s/acmewebsite\.html[\s?] [NC]
+RewriteRule ^ / [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/Header/AboutUs\.html[\s?] [NC]
+RewriteRule ^ /About [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/Header/Contact\.html[\s?] [NC]
+RewriteRule ^ /Contact [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/blog/bestpractice\.html[\s?] [NC]
+RewriteRule ^ /blog/best-practices [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/blog/desc\.html[\s?] [NC]
+RewriteRule ^ /blog/heat-resistant-materials [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/blog/sus\.html[\s?] [NC]
+RewriteRule ^ /blog/sustainability [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/Threads/PTFEThread\.html[\s?] [NC]
+RewriteRule ^ /Threads/PTFE-Thread [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/Threads/SilicaThread\.html[\s?] [NC]
+RewriteRule ^ /Threads/Silica-Thread [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/Welding/AFG/AFG1860\.html[\s?] [NC]
+RewriteRule ^ /Welding/AFG1860 [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/Welding/AFG/AFG2160\.html[\s?] [NC]
+RewriteRule ^ /Welding/AFG2160 [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/Welding/FG/FG1860\.html[\s?] [NC]
+RewriteRule ^ /Welding/FG1860 [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/Welding/FG/FG2460\.html[\s?] [NC]
+RewriteRule ^ /Welding/FG2460 [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/Welding/FG/FG3500\.html[\s?] [NC]
+RewriteRule ^ /Welding/FG3500 [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/Welding/FG/FG6400\.html[\s?] [NC]
+RewriteRule ^ /Welding/FG6400 [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/Welding/SFG/SFG1760G\.html[\s?] [NC]
+RewriteRule ^ /Welding/SFG1760G [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/Welding/SFG/SFG1760R\.html[\s?] [NC]
+RewriteRule ^ /Welding/SFG1760R [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/Welding/SFG/SFG3260G\.html[\s?] [NC]
+RewriteRule ^ /Welding/SFG3260G [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/Welding/SFG/SFG3260R\.html[\s?] [NC]
+RewriteRule ^ /Welding/SFG3260R [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/Welding/SIL/SIL1800\.html[\s?] [NC]
+RewriteRule ^ /Welding/SIL1800 [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/Welding/SIL/SIL3600\.html[\s?] [NC]
+RewriteRule ^ /Welding/SIL3600 [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/Welding/VFG/VFG1860G\.html[\s?] [NC]
+RewriteRule ^ /Welding/VFG1860G [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/Welding/VFG/VFG2460G\.html[\s?] [NC]
+RewriteRule ^ /Welding/VFG2460G [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/Welding/VFG/VFG3560G\.html[\s?] [NC]
+RewriteRule ^ /Welding/VFG3560G [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/Welding/VFG/VFG3560SS\.html[\s?] [NC]
+RewriteRule ^ /Welding/VFG3560SS [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/Welding/NFG/NFG1660\.html[\s?] [NC]
+RewriteRule ^ /Welding/NFG1660 [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/Welding/NFG/NFG2460B\.html[\s?] [NC]
+RewriteRule ^ /Welding/NFG2460B [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/Welding/NFG/NFG2460Y\.html[\s?] [NC]
+RewriteRule ^ /Welding/NFG2460Y [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/Welding/Mat/FGMAT160\.html[\s?] [NC]
+RewriteRule ^ /Welding/FGMAT160 [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/Welding/Mat/SilicaMAT\.html[\s?] [NC]
+RewriteRule ^ /Welding/SilicaMAT [R=301,L]
+
+# Generic: redirect remaining *.html to the same path without .html
+RewriteCond %{THE_REQUEST} \s/(.+)\.html[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+
+# ── Serve files for clean URLs ──────────────────────────────────────────────
+RewriteRule ^About$                      Header/AboutUs.html   [L]
+RewriteRule ^Contact$                    Header/Contact.html   [L]
+
+RewriteRule ^blog/best-practices$        blog/bestpractice.html        [L]
+RewriteRule ^blog/heat-resistant-materials$ blog/desc.html             [L]
+RewriteRule ^blog/sustainability$        blog/sus.html                 [L]
+
+RewriteRule ^Threads/PTFE-Thread$        Threads/PTFEThread.html       [L]
+RewriteRule ^Threads/Silica-Thread$      Threads/SilicaThread.html     [L]
+
+RewriteRule ^Welding/AFG1860$            Welding/AFG/AFG1860.html      [L]
+RewriteRule ^Welding/AFG2160$            Welding/AFG/AFG2160.html      [L]
+RewriteRule ^Welding/FG1860$             Welding/FG/FG1860.html        [L]
+RewriteRule ^Welding/FG2460$             Welding/FG/FG2460.html        [L]
+RewriteRule ^Welding/FG3500$             Welding/FG/FG3500.html        [L]
+RewriteRule ^Welding/FG6400$             Welding/FG/FG6400.html        [L]
+RewriteRule ^Welding/SFG1760G$           Welding/SFG/SFG1760G.html     [L]
+RewriteRule ^Welding/SFG1760R$           Welding/SFG/SFG1760R.html     [L]
+RewriteRule ^Welding/SFG3260G$           Welding/SFG/SFG3260G.html     [L]
+RewriteRule ^Welding/SFG3260R$           Welding/SFG/SFG3260R.html     [L]
+RewriteRule ^Welding/SIL1800$            Welding/SIL/SIL1800.html      [L]
+RewriteRule ^Welding/SIL3600$            Welding/SIL/SIL3600.html      [L]
+RewriteRule ^Welding/VFG1860G$           Welding/VFG/VFG1860G.html     [L]
+RewriteRule ^Welding/VFG2460G$           Welding/VFG/VFG2460G.html     [L]
+RewriteRule ^Welding/VFG3560G$           Welding/VFG/VFG3560G.html     [L]
+RewriteRule ^Welding/VFG3560SS$          Welding/VFG/VFG3560SS.html    [L]
+RewriteRule ^Welding/NFG1660$            Welding/NFG/NFG1660.html      [L]
+RewriteRule ^Welding/NFG2460B$           Welding/NFG/NFG2460B.html     [L]
+RewriteRule ^Welding/NFG2460Y$           Welding/NFG/NFG2460Y.html     [L]
+RewriteRule ^Welding/FGMAT160$           Welding/Mat/FGMAT160.html     [L]
+RewriteRule ^Welding/SilicaMAT$          Welding/Mat/SilicaMAT.html    [L]
+
+# Generic: serve *.html for any remaining clean URL
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)$ $1.html [L]
