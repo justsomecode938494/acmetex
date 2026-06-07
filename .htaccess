@@ -100,9 +100,9 @@ RewriteRule ^ /%1 [R=301,L]
 RewriteRule ^About$                      Header/AboutUs.html   [L]
 RewriteRule ^Contact$                    Header/Contact.html   [L]
 
-RewriteRule ^blog/best-practices$        blog/bestpractice.html        [L]
-RewriteRule ^blog/heat-resistant-materials$ blog/desc.html             [L]
-RewriteRule ^blog/sustainability$        blog/sus.html                 [L]
+RewriteRule ^blog/Best-Practices$        blog/bestpractice.html        [L]
+RewriteRule ^blog/Materials$                blog/desc.html             [L]
+RewriteRule ^blog/Sustainability$        blog/sus.html                 [L]
 
 RewriteRule ^Threads/PTFE-Thread$        Threads/PTFEThread.html       [L]
 RewriteRule ^Threads/Silica-Thread$      Threads/SilicaThread.html     [L]
