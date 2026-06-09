@@ -1,3 +1,6 @@
+Options +Includes
+AddOutputFilter INCLUDES .html
+
 RewriteEngine On
 
 # Serve acmewebsite.html as the homepage
