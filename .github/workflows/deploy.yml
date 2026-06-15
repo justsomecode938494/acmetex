@@ -21,6 +21,11 @@ jobs:
           ssh-keyscan -H ${{ secrets.IONOS_HOST }} >> ~/.ssh/known_hosts
 
       - name: Deploy via rsync
+        env:
+          REMOTE_PATH: ${{ secrets.IONOS_REMOTE_PATH }}
+          REMOTE_USER: ${{ secrets.IONOS_USER }}
+          REMOTE_HOST: ${{ secrets.IONOS_HOST }}
+          SSH_PORT: ${{ secrets.IONOS_SSH_PORT }}
         run: |
           rsync -avz --delete \
             --exclude='.git/' \
@@ -29,6 +34,6 @@ jobs:
             --exclude='*.zip' \
             --exclude='template.txt' \
             --exclude='competitors.txt' \
-            -e "ssh -i ~/.ssh/id_rsa -p ${{ secrets.IONOS_SSH_PORT }}" \
+            -e "ssh -i ~/.ssh/id_rsa -p ${SSH_PORT}" \
             ./ \
-            ${{ secrets.IONOS_USER }}@${{ secrets.IONOS_HOST }}:${{ secrets.IONOS_REMOTE_PATH }}
+            "${REMOTE_USER}@${REMOTE_HOST}:${REMOTE_PATH}"
